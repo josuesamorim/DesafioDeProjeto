@@ -15,7 +15,7 @@ class Task {
 
 // Definindo a classe TaskList
 class TaskList {
-    var tasks: [Task] = []
+    var tasks: [Task] = [ ]
     
     func addTask(_ task: Task) {
         tasks.append(task)

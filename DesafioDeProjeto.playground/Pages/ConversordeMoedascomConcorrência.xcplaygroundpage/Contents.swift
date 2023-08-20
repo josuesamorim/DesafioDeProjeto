@@ -70,4 +70,5 @@ let convertedAmountInBRL = converter.convert(amount: amountInUSD, from: .usd, to
 
 // Exibindo os resultados
 print("\(amountInUSD) \(Currency.usd.symbol) é igual a \(convertedAmountInEUR) \(Currency.eur.symbol)")
-print("\(amountInUSD) \(Currency.usd.symbol) é igual a \(convertedAmountInBRL) \(Currency.brl.symbol)")
+print("\(amountInUSD) \(Currency.usd.symbol) é igual a \(convertedAmountInBRL) \(Currency.brl.symbol )")
+    
